@@ -1,6 +1,6 @@
 * {
   margin: 0;
-
+  scroll-behavior: smooth;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
