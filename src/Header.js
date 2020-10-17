@@ -8,7 +8,7 @@ const Header = () => {
         <div className='header'>
             <img className='header__logo' src="http://pngimg.com/uploads/amazon/amazon_PNG25.png" alt="amazon-header-logo"/>
             <div className='header__search'>
-                <input className='header__searchInput' type="text"/>
+                <input className='header__searchInput' type="text" placeholder='Search a product'/>
                 <SearchIcon className='header__searchIcon'/>
             </div>
             <div className='header__nav'>
