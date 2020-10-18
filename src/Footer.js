@@ -8,9 +8,13 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer__container'>
-                <span><a href="#top" id='toTopA'>Back to top</a></span>
-            </div>
+                <div className='scrollToTopBtn'>
+                    <span><a href="#top" id='toTopA'>Back to top</a></span>
+                </div>
+                <div className='footer__content'>
 
+                </div>
+            </div>
         </div>
     );
 };
