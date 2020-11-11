@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/Product.css';
+import './css/responsive/ProductResponsive.css';
 
 const Product = () => {
     return (

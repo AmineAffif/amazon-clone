@@ -1,18 +1,10 @@
 import React from 'react';
 import './css/Footer.css';
-import Radio from '@material-ui/core/Radio';
-import RadioGroup from '@material-ui/core/RadioGroup';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormControl from '@material-ui/core/FormControl';
-import FormLabel from '@material-ui/core/FormLabel';
+import DropdownLanguage from "./DropdownLanguage";
+
 
 
 const Footer = () => {
-    const [value, setValue] = React.useState('female');
-
-    const handleChange = (event) => {
-        setValue(event.target.value);
-    };
     return (
         <div className='footer'>
             <div className='footer__container'>
@@ -65,17 +57,12 @@ const Footer = () => {
                             <img id='logo_footer' src="http://pngimg.com/uploads/amazon/amazon_PNG25.png" alt="amazon-logo"/>
                         </span>
                         <span className='footer__options__list'>
-                            <FormControl component="fieldset">
-                            <FormLabel className='footer__language__title'  component="legend">Language</FormLabel>
-                            {/* eslint-disable-next-line no-undef */}
-                            <RadioGroup aria-label="Language" name="Language" value={value} onChange={handleChange}>
-                              <FormControlLabel value="English" control={<Radio />} label="English" />
-                              <FormControlLabel value="French" control={<Radio />} label="French" />
-                              <FormControlLabel value="Spanish" control={<Radio />} label="Spanish" />
-                            </RadioGroup>
-                            </FormControl>
+
+                            <DropdownLanguage/>
+
                         </span>
                         <span className='footer__part2_options'>
+
                             <span>USD - U.S. Dollar</span>
                             <span><img className='flag__img' src="https://i.pinimg.com/originals/2e/27/30/2e2730e0f69823b94989647b08806203.png" alt="country-flag-icon"/>United States</span>
                         </span>

@@ -1,0 +1,28 @@
+/*----------------------------Custom_adjustments-------------------*/
+
+
+@media only screen and (max-width: 1108px) {
+    .product__info {
+        height: 350px;
+        margin: 0;
+    }
+    .product__title {
+        max-height: 100%;
+    }
+    .product__image {
+        margin: 0;
+    }
+    .product button {
+        display: block;
+        height: 40px;
+    }
+}
+
+
+
+/*----------------------------Tablet-------------------------------*/
+
+
+
+/*----------------------------smartphone--------------------------- */
+

@@ -26,8 +26,6 @@
     margin-bottom: 15px;
 }
 .product__info {
-    display: flex;
-    flex-wrap: wrap;
     height: 100px;
     width: 70%;
     margin-bottom: 15px;
@@ -42,7 +40,4 @@
     border-color: #a88734 #9c7e31 #846a29;
     color: #111111;
     padding: 3px 6px;
-}
-.home__row {
-    display: flex;
 }
